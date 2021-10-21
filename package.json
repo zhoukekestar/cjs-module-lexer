@@ -1,5 +1,5 @@
 {
-  "name": "cjs-module-lexer",
+  "name": "@ali/cjs-module-lexer",
   "version": "1.2.2",
   "description": "Lexes CommonJS modules, returning their named exports metadata",
   "main": "lexer.js",
@@ -35,6 +35,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/guybedford/cjs-module-lexer.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npm.alibaba-inc.com"
   },
   "bugs": {
     "url": "https://github.com/guybedford/cjs-module-lexer/issues"
